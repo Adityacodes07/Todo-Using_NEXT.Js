@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Next.js Todo App with Developer Portfolio
 
-## Getting Started
+A modern and responsive **Todo List Application** built using **Next.js (App Router)**.
+This project demonstrates **component-based architecture, state management, and routing**, along with a dedicated **Developer Portfolio page**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+* ✅ Add and delete todos
+* ✅ Two-way data binding using React state
+* ✅ Component-based architecture
+* ✅ Clean and responsive UI (Tailwind CSS)
+* ✅ Nested routing using Next.js App Router
+* ✅ Developer portfolio page (`/developer`)
+* ✅ Resume download functionality
+* ✅ Optimized images using Next.js Image
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚡ Next.js (App Router)
+* ⚛️ React.js
+* 🎨 Tailwind CSS
+* 📜 JavaScript (ES6+)
+
+---
+
+## 📂 Folder Structure
+
+```
+app/
+├── layout.js
+├── page.js
+├── developer/
+│   └── page.js
+
+components/
+├── Navbar.jsx
+├── TodoInput.jsx
+├── TodoList.jsx
+├── TodoItem.jsx
+
+public/
+├── profile.png
+├── resume.pdf
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Pages
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* 🏠 **Home Page** → Todo List App
+* 👨‍💻 **Developer Page** → Portfolio + Resume
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Learning Outcomes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project helped in understanding:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Next.js App Router
+* Routing (nested & dynamic)
+* React state management (useState)
+* Component structuring
+* Handling static assets in Next.js
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ Installation & Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/nextjs-todo-app.git
+```
+
+2. Navigate to project folder
+
+```
+cd nextjs-todo-app
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔗 Live Demo
+
+👉 (Add your Vercel link here after deployment)
+
+---
+
+## 👨‍💻 Developer
+
+**Aditya Kewat**
+🎓 B.Tech CSE
+💻 Full Stack Developer (React | MERN | Next.js)
+
+---
+
+## ⭐ Support
+
+If you like this project, please **give it a star ⭐** on GitHub!
+
+---
+
+## 📌 Future Improvements
+
+* ✏️ Edit todo feature
+* ✅ Mark as completed
+* 💾 Save data using LocalStorage
+* 🌙 Dark mode support
+* 🔐 Authentication
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
