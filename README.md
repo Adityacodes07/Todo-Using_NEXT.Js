@@ -73,7 +73,7 @@ This project helped in understanding:
 1. Clone the repository
 
 ```
-git clone 
+git clone https://github.com/Adityacodes07/Todo-Using_NEXT.Js/tree/main
 ```
 
 2. Navigate to project folder
