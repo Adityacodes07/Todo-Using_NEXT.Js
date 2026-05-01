@@ -73,7 +73,7 @@ This project helped in understanding:
 1. Clone the repository
 
 ```
-git clone https://github.com/your-username/nextjs-todo-app.git
+git clone 
 ```
 
 2. Navigate to project folder
@@ -104,7 +104,7 @@ http://localhost:3000
 
 ## 🔗 Live Demo
 
-👉 (Add your Vercel link here after deployment)
+👉 https://todo-using-next-js.vercel.app/developer
 
 ---
 
