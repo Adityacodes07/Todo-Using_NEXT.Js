@@ -43,7 +43,7 @@ const Developer = () => {
 
               {/* Portfolio */}
               <a
-                href="https://adityacodes07.github.io/my-portfolio/"
+                href="https://3d-portifolio-six.vercel.app/#about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-black text-white px-5 py-2 rounded-xl hover:scale-105 transition"
